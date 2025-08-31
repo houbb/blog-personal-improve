@@ -1,7 +1,7 @@
 ---
 title: 全面提升个人适应力的实践方法：从理论到行动的完整指南
 date: 2025-08-30
-categories: [Adaptability], Personal Development, Practice Methods]
+categories: [Adaptability]
 tags: [adaptability, personal development, practice methods, self-improvement, skill building]
 published: true
 ---

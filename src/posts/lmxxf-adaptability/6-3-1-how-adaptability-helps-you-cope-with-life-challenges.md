@@ -1,7 +1,7 @@
 ---
 title: 适应力如何帮助你应对生活中的各种挑战：从个人到家庭的全面指南
 date: 2025-08-30
-categories: [Adaptability], Life Challenges, Personal Development]
+categories: [Adaptability]
 tags: [adaptability, life challenges, personal development, family relationships, health management]
 published: true
 ---

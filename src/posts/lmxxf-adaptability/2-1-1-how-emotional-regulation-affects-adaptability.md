@@ -1,7 +1,7 @@
 ---
 title: 情绪调节如何影响适应力：从神经科学到日常实践的全面解析
 date: 2025-08-30
-categories: [Adaptability], Emotional Intelligence, Neuroscience]
+categories: [Adaptability]
 tags: [adaptability, emotional regulation, neuroscience, cognitive function, stress]
 published: true
 ---

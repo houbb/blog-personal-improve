@@ -1,7 +1,7 @@
 ---
 title: 适应力与领导力：在变化中引领团队走向成功
 date: 2025-08-30
-categories: [Adaptability], Leadership]
+categories: [Adaptability]
 tags: [adaptability, leadership, team management, change leadership, organizational development]
 published: true
 ---

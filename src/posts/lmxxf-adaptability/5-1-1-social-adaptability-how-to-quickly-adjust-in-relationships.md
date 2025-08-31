@@ -1,7 +1,7 @@
 ---
 title: 社交适应力：如何在人际关系中快速调整
 date: 2025-08-30
-categories: [Adaptability], Social Skills, Relationship Management]
+categories: [Adaptability]
 tags: [adaptability, social adaptability, relationship adjustment, emotional intelligence, communication skills]
 published: true
 ---

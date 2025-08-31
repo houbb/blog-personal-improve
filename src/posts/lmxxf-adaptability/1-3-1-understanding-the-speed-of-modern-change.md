@@ -1,7 +1,7 @@
 ---
 title: 理解现代变化的速度：技术、社会与个人适应的多维分析
 date: 2025-08-30
-categories: [Adaptability], Technology, Social Change]
+categories: [Adaptability]
 tags: [adaptability, technology, social change, acceleration, innovation]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 认知灵活性：调整思维模式以适应变化的关键能力
 date: 2025-08-30
-categories: [Adaptability], Cognitive Skills]
+categories: [Adaptability]
 tags: [adaptability, cognitive flexibility, thinking patterns, mindset, problem solving]
 published: true
 ---

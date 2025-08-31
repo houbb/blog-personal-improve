@@ -1,7 +1,7 @@
 ---
 title: 在压力下如何保持坚韧：高压环境中的心理韧性实战指南
 date: 2025-08-30
-categories: [Adaptability], Resilience, Stress Management]
+categories: [Adaptability]
 tags: [adaptability, resilience, stress management, pressure, mental toughness]
 published: true
 ---

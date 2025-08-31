@@ -1,7 +1,7 @@
 ---
 title: 面对快速变化的行业：在颠覆中寻找职业发展机遇
 date: 2025-08-30
-categories: [Adaptability], Industry Trends, Career Strategy]
+categories: [Adaptability]
 tags: [adaptability, industry change, career development, disruption, professional growth]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 在逆境中构建心理韧性：从创伤到成长的心理学路径
 date: 2025-08-30
-categories: [Adaptability], Psychology, Resilience]
+categories: [Adaptability]
 tags: [adaptability, resilience, psychology, trauma, growth]
 published: true
 ---

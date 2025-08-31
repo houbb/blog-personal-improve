@@ -1,7 +1,7 @@
 ---
 title: 接受不确定性与模糊性：在混沌中寻找方向的智慧
 date: 2025-08-30
-categories: [Adaptability], Uncertainty]
+categories: [Adaptability]
 tags: [adaptability, uncertainty, ambiguity, chaos, decision making]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 持续学习与适应能力的提升：构建终身成长的学习生态系统
 date: 2025-08-30
-categories: [Adaptability], Lifelong Learning, Skill Development]
+categories: [Adaptability]
 tags: [adaptability, lifelong learning, skill development, learning agility, knowledge management]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 管理焦虑、恐惧与挫败感：在变化中保持情绪稳定的实用指南
 date: 2025-08-30
-categories: [Adaptability], Emotional Management, Stress Reduction]
+categories: [Adaptability]
 tags: [adaptability, anxiety, fear, frustration, stress management, emotional regulation]
 published: true
 ---

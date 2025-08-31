@@ -1,7 +1,7 @@
 ---
 title: 适应力的心理学基础：从心理韧性和神经科学角度深入解析
 date: 2025-08-30
-categories: [Adaptability], Psychology]
+categories: [Adaptability]
 tags: [adaptability, psychology, resilience, neuroscience]
 published: true
 ---

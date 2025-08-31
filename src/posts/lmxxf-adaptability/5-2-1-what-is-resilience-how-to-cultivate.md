@@ -1,7 +1,7 @@
 ---
 title: 什么是心理韧性？如何培养？
 date: 2025-08-30
-categories: [Adaptability], Resilience, Psychology]
+categories: [Adaptability]
 tags: [adaptability, resilience, psychology, mental strength, personal development]
 published: true
 ---

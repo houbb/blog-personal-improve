@@ -1,7 +1,7 @@
 ---
 title: 调整生活方式应对变化：在不确定性中建立个人韧性
 date: 2025-08-30
-categories: [Adaptability], Lifestyle, Personal Development]
+categories: [Adaptability]
 tags: [adaptability, lifestyle, change, resilience, personal growth]
 published: true
 ---

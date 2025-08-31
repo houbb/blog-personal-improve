@@ -1,7 +1,7 @@
 ---
 title: 适应力的神经科学：大脑如何帮助我们应对变化和挑战
 date: 2025-08-30
-categories: [Adaptability], Neuroscience, Brain Science]
+categories: [Adaptability]
 tags: [adaptability, neuroscience, brain, neuroplasticity, stress]
 published: true
 ---

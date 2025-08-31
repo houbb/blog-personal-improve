@@ -1,7 +1,7 @@
 ---
 title: 自我控制与适应力的关系：神经科学视角下的深度解析
 date: 2025-08-30
-categories: [Adaptability], Self Control, Neuroscience]
+categories: [Adaptability]
 tags: [adaptability, self-control, neuroscience, executive function, willpower]
 published: true
 ---

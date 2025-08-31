@@ -1,7 +1,7 @@
 ---
 title: 未来社会中的适应力挑战：为即将到来的变革做好准备
 date: 2025-08-30
-categories: [Adaptability], Future Trends, Social Change]
+categories: [Adaptability]
 tags: [adaptability, future society, technological change, social adaptation, preparation]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 适应力在职场中的应用：在快速变化的行业中保持竞争力
 date: 2025-08-30
-categories: [Adaptability], Career Development]
+categories: [Adaptability]
 tags: [adaptability, workplace, career, industry change, professional development]
 published: true
 ---

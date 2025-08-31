@@ -1,7 +1,7 @@
 ---
 title: 自我提升的适应力练习清单：从基础到高级的完整训练指南
 date: 2025-08-30
-categories: [Adaptability], Self Improvement, Practice Guide]
+categories: [Adaptability]
 tags: [adaptability, self improvement, practice checklist, skill development, training guide]
 published: true
 ---

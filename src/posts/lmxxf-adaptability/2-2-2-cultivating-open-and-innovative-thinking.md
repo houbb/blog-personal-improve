@@ -1,7 +1,7 @@
 ---
 title: 培养开放思维与创新思维：在变化中寻找突破的认知策略
 date: 2025-08-30
-categories: [Adaptability], Innovation, Creative Thinking]
+categories: [Adaptability]
 tags: [adaptability, open mindset, innovative thinking, creativity, problem solving]
 published: true
 ---

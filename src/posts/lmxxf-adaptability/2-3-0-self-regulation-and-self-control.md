@@ -1,7 +1,7 @@
 ---
 title: 自我调节与自我控制：在挑战中保持自律与专注的核心能力
 date: 2025-08-30
-categories: [Adaptability], Self Management]
+categories: [Adaptability]
 tags: [adaptability, self-regulation, self-control, discipline, focus]
 published: true
 ---

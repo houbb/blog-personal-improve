@@ -1,7 +1,7 @@
 ---
 title: 日常练习：情绪调节、思维转换、反思习惯的系统训练
 date: 2025-08-30
-categories: [Adaptability], Daily Practice, Emotional Intelligence]
+categories: [Adaptability]
 tags: [adaptability, daily practice, emotional regulation, cognitive flexibility, reflection]
 published: true
 ---

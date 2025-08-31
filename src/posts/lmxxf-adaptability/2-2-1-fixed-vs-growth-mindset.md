@@ -1,7 +1,7 @@
 ---
 title: 固定型思维 vs 成长型思维：解锁认知灵活性的关键密码
 date: 2025-08-30
-categories: [Adaptability], Mindset, Psychology]
+categories: [Adaptability]
 tags: [adaptability, mindset, cognitive flexibility, growth mindset, fixed mindset]
 published: true
 ---

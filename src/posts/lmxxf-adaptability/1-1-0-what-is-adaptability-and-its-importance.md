@@ -1,7 +1,7 @@
 ---
 title: 适应力的定义与重要性：在快速变化世界中生存与发展的关键能力
 date: 2025-08-30
-categories: [Adaptability]]
+categories: [Adaptability]
 tags: [adaptability, psychology, personal development]
 published: true
 ---
