@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修仙阅读游戏</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+    <style>
+        /* 仙侠风格全局样式 */
+        :root {
+          --primary-color: #8B4513; /* 棕色，类似古铜色 */
+          --secondary-color: #D2691E; /* 巧克力色 */
+          --accent-color: #FFD700; /* 金色 */
+          --background-color: #0d0d0d; /* 深黑色背景 */
+          --text-color: #F5DEB3; /* 米色文字 */
+          --border-color: #8B4513; /* 边框颜色 */
+          --card-bg: rgba(27, 27, 27, 0.85); /* 卡片背景 */
+          --hover-color: #A0522D; /* 悬停颜色 */
+        }
+
+        body {
+          font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+          background-color: var(--background-color);
+          color: var(--text-color);
+          margin: 0;
+          padding: 0;
+          background-image: url('https://images.unsplash.com/photo-1518837691464-53990e384563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          font-size: 16px;
+          line-height: 1.6;
+        }
+
+        #app {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+        .container {
+          background: var(--card-bg);
+          border: 2px solid var(--border-color);
+          border-radius: 10px;
+          padding: 20px;
+          margin-bottom: 20px;
+          box-shadow: 0 0 20px rgba(139, 69, 19, 0.5);
+          backdrop-filter: blur(10px);
+        }
+
+        h1, h2, h3, h4 {
+          color: var(--accent-color);
+          text-align: center;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          font-weight: 700;
+        }
+
+        h1 {
+          font-size: 2.5rem;
+          margin-bottom: 20px;
+        }
+
+        h2 {
+          font-size: 2rem;
+          margin-bottom: 15px;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 1.1rem;
+          margin-bottom: 10px;
+          color: #F0E6D2;
+        }
+
+        .btn {
+          background: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+          color: var(--text-color);
+          border: 1px solid var(--border-color);
+          border-radius: 5px;
+          padding: 12px 24px;
+          cursor: pointer;
+          font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          transition: all 0.3s ease;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:hover {
+          background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:active {
+          transform: translateY(0);
+        }
+
+        .card {
+          background: var(--card-bg);
+          border: 1px solid var(--border-color);
+          border-radius: 8px;
+          padding: 20px;
+          margin-bottom: 20px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          backdrop-filter: blur(5px);
+        }
+
+        .card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 5px 15px rgba(139, 69, 19, 0.5);
+        }
+
+        .progress-bar {
+          height: 20px;
+          background-color: #333;
+          border-radius: 10px;
+          overflow: hidden;
+          margin: 10px 0;
+        }
+
+        .progress-fill {
+          height: 100%;
+          background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+          border-radius: 10px;
+          transition: width 0.5s ease;
+        }
+
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 20px;
+          margin-top: 20px;
+        }
+
+        .loading {
+          text-align: center;
+          padding: 20px;
+          font-size: 18px;
+        }
+
+        .error {
+          color: #ff6b6b;
+          text-align: center;
+          padding: 20px;
+        }
+
+        .success {
+          color: #51cf66;
+        }
+
+        .article-title {
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-bottom: 8px;
+          color: #FFFFFF;
+        }
+
+        .article-status {
+          font-size: 0.9rem;
+          font-weight: 400;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+          .grid {
+            grid-template-columns: 1fr;
+          }
+          
+          #app {
+            padding: 10px;
+          }
+          
+          .container {
+            padding: 15px;
+          }
+          
+          h1 {
+            font-size: 2rem;
+          }
+          
+          h2 {
+            font-size: 1.6rem;
+          }
+          
+          p {
+            font-size: 1rem;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Vue应用将挂载到这里 -->
+    </div>
+    
+    <!-- 引入Vue3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- 引入文章路径数据 -->
+    <script src="article-paths.js"></script>
+    <script>
+        // 分类数据（根据xiuxian-gategory.md和博客信息）
+        const categories = [
+          { id: 'think-model', name: '思维模型', displayName: '归元图', volume: '心法卷', count: 108, description: '内修本源，明心见性', folder: 'lmxxf-think-model' },
+          { id: 'leadership', name: '领导力', displayName: '玄御篇', volume: '大道卷', count: 72, description: '融通万象，统御苍生', folder: 'lmxxf-leadership' },
+          { id: 'reading', name: '阅读', displayName: '观书诀', volume: '技法卷', count: 72, description: '外显诸术，显化于用', folder: 'lmxxf-reading' },
+          { id: 'time-management', name: '时间管理', displayName: '乾坤分影', volume: '技法卷', count: 70, description: '外显诸术，显化于用', folder: 'lmxxf-time-management' },
+          { id: 'notes', name: '笔记·数字花园', displayName: '灵苗录', volume: '实修卷', count: 63, description: '磨砺身心，学以致用', folder: 'lmxxf-notes' },
+          { id: 'self-discipline', name: '自制力', displayName: '戒心法', volume: '心法卷', count: 63, description: '内修本源，明心见性', folder: 'lmxxf-self-discipline' },
+          { id: 'practice', name: '刻意练习', displayName: '千炼诀', volume: '实修卷', count: 59, description: '磨砺身心，学以致用', folder: 'lmxxf-practice' },
+          { id: 'focus', name: '专注力', displayName: '一念通', volume: '技法卷', count: 54, description: '外显诸术，显化于用', folder: 'lmxxf-focus' },
+          { id: 'adaptability', name: '适应能力', displayName: '大衍决', volume: '心法卷', count: 54, description: '内修本源，明心见性', folder: 'lmxxf-adaptability' },
+          { id: 'emotional', name: '情绪管理', displayName: '心湖定法', volume: '心法卷', count: 51, description: '内修本源，明心见性', folder: 'lmxxf-emotional' },
+          { id: 'learn', name: '学习力', displayName: '悟道篇', volume: '实修卷', count: 45, description: '磨砺身心，学以致用', folder: 'lmxxf-learn' },
+          { id: 'write', name: '写作', displayName: '文心剑', volume: '技法卷', count: 31, description: '外显诸术，显化于用', folder: 'lmxxf-write' },
+          { id: 'inputs', name: '信息输入', displayName: '纳息经', volume: '技法卷', count: 30, description: '外显诸术，显化于用', folder: 'lmxxf-inputs' },
+          { id: 'outputs', name: '信息输出', displayName: '化神篇', volume: '技法卷', count: 30, description: '外显诸术，显化于用', folder: 'lmxxf-outputs' },
+          { id: 'logic', name: '逻辑学', displayName: '演绎经', volume: '心法卷', count: 29, description: '内修本源，明心见性', folder: 'lmxxf-logic' },
+          { id: 'tech', name: '以教代学', displayName: '传道篇', volume: '实修卷', count: 28, description: '磨砺身心，学以致用', folder: 'lmxxf-tech' },
+          { id: 'critical', name: '批判思维', displayName: '洞虚经', volume: '心法卷', count: 24, description: '内修本源，明心见性', folder: 'lmxxf-critical' },
+          { id: 'memory', name: '记忆力', displayName: '灵光录', volume: '心法卷', count: 24, description: '内修本源，明心见性', folder: 'lmxxf-memory' },
+          { id: 'decision', name: '决策能力', displayName: '天衡策', volume: '心法卷', count: 22, description: '内修本源，明心见性', folder: 'lmxxf-decision' },
+          { id: 'inaction', name: '实践落地', displayName: '行道篇', volume: '大道卷', count: 21, description: '融通万象，统御苍生', folder: 'lmxxf-inaction' },
+          { id: 'communication', name: '沟通能力', displayName: '灵犀诀', volume: '心法卷', count: 20, description: '内修本源，明心见性', folder: 'lmxxf-communication' },
+          { id: 'mind', name: '心智', displayName: '玄心经', volume: '心法卷', count: 20, description: '内修本源，明心见性', folder: 'lmxxf-mind' },
+          { id: 'feedback', name: '反馈', displayName: '回音术', volume: '技法卷', count: 18, description: '外显诸术，显化于用', folder: 'lmxxf-feedback' },
+          { id: 'env', name: '环境对人的影响', displayName: '万象融经', volume: '大道卷', count: 13, description: '融通万象，统御苍生', folder: 'lmxxf-env' },
+          { id: 'creative', name: '创造力', displayName: '化生篇', volume: '心法卷', count: 38, description: '内修本源，明心见性', folder: 'lmxxf-creative' }
+        ];
+
+        // 修炼境界体系
+        const realms = [
+          { id: 1, name: '启蒙 · 明识境', description: '初识功法，理解其意' },
+          { id: 2, name: '小成 · 习练境', description: '掌握基础，能在部分场景施展' },
+          { id: 3, name: '大成 · 融通境', description: '功法熟练，与其他功法互相配合' },
+          { id: 4, name: '圆满 · 自在境', description: '融会贯通，不假思索即可自然施展' },
+          { id: 5, name: '化境 · 通玄境', description: '超越个人，能启迪他人，甚至创造新法' }
+        ];
+
+        // 创建Vue应用
+        const { createApp } = Vue;
+        
+        const app = createApp({
+          data() {
+            return {
+              currentView: 'home', // 'home', 'category', 'articles', 'reader'
+              categories: categories,
+              selectedCategory: null,
+              articles: [],
+              selectedArticle: null,
+              player: {
+                realm: 1, // 当前境界
+                cultivation: 0, // 修为值
+                maxCultivation: 100, // 最大修为值
+                spirit: 50, // 灵力值
+                maxSpirit: 100 // 最大灵力值
+              },
+              readArticles: JSON.parse(localStorage.getItem('readArticles') || '{}')
+            };
+          },
+          computed: {
+            realmInfo() {
+              return realms.find(r => r.id === this.player.realm) || realms[0];
+            },
+            totalProgress() {
+              const totalArticles = this.categories.reduce((sum, cat) => sum + cat.count, 0);
+              const readCount = Object.values(this.readArticles).flat().length;
+              return Math.round((readCount / totalArticles) * 100);
+            }
+          },
+          methods: {
+            navigateTo(view, data) {
+              this.currentView = view;
+              if (view === 'category' && data) {
+                this.selectedCategory = data;
+              } else if (view === 'articles' && data) {
+                this.selectedCategory = data;
+                this.loadArticles(data.folder);
+              } else if (view === 'reader' && data) {
+                this.selectedArticle = data;
+              }
+            },
+            loadArticles(folderName) {
+              // 使用预处理的文章路径数据
+              if (articlePaths && articlePaths[folderName]) {
+                // 获取该分类下的所有文章
+                this.articles = articlePaths[folderName].map((article, index) => ({
+                  id: `${folderName}-${index}`,
+                  title: this.formatArticleTitle(article.title), // 格式化文章标题
+                  url: `https://houbb.github.io${article.url}`,
+                  read: false
+                }));
+                
+                // 标记已读文章
+                const readList = this.readArticles[this.selectedCategory.id] || [];
+                this.articles.forEach(article => {
+                  article.read = readList.includes(article.id);
+                });
+              } else {
+                // 如果没有预处理数据，使用示例数据
+                this.articles = [];
+                for (let i = 1; i <= Math.min(this.selectedCategory.count, 5); i++) {
+                  const fileName = `${i}-sample-article-${i}`;
+                  const articleId = `${folderName}-${fileName}`;
+                  this.articles.push({
+                    id: articleId,
+                    title: `${this.selectedCategory.name}修炼心得 第${i}篇`,
+                    url: `https://houbb.github.io/blog-personal-improve/posts/${folderName}/${fileName}.html`,
+                    read: false
+                  });
+                }
+                
+                // 标记已读文章
+                const readList = this.readArticles[this.selectedCategory.id] || [];
+                this.articles.forEach(article => {
+                  article.read = readList.includes(article.id);
+                });
+              }
+            },
+            readArticle(article) {
+              // 标记文章为已读
+              article.read = true;
+              
+              // 更新本地存储
+              if (!this.readArticles[this.selectedCategory.id]) {
+                this.readArticles[this.selectedCategory.id] = [];
+              }
+              
+              if (!this.readArticles[this.selectedCategory.id].includes(article.id)) {
+                this.readArticles[this.selectedCategory.id].push(article.id);
+                localStorage.setItem('readArticles', JSON.stringify(this.readArticles));
+              }
+              
+              // 增加修为值
+              this.player.cultivation = Math.min(this.player.cultivation + 5, this.player.maxCultivation);
+              
+              // 增加灵力值
+              this.player.spirit = Math.min(this.player.spirit + 3, this.player.maxSpirit);
+              
+              // 检查是否可以突破境界
+              if (this.player.cultivation >= this.player.maxCultivation) {
+                this.tryBreakthrough();
+              }
+              
+              // 安全地打开文章页面
+              this.safeOpenWindow(article.url);
+            },
+            tryBreakthrough() {
+              if (this.player.realm < realms.length) {
+                this.player.realm++;
+                this.player.cultivation = 0;
+                alert(`恭喜突破到 ${this.realmInfo.name}!`);
+              } else {
+                alert('已达到最高境界！');
+              }
+            },
+            cultivate() {
+              // 打坐修炼增加修为
+              this.player.cultivation = Math.min(this.player.cultivation + 1, this.player.maxCultivation);
+              
+              // 检查是否可以突破境界
+              if (this.player.cultivation >= this.player.maxCultivation) {
+                this.tryBreakthrough();
+              }
+            },
+            absorbSpirit() {
+              // 吸收灵力
+              this.player.spirit = Math.min(this.player.spirit + 5, this.player.maxSpirit);
+            },
+            getCategoryProgress(categoryId) {
+              const readList = this.readArticles[categoryId] || [];
+              const category = this.categories.find(c => c.id === categoryId);
+              if (!category) return 0;
+              return Math.round((readList.length / category.count) * 100);
+            },
+            
+            // 格式化文章标题
+            formatArticleTitle(title) {
+              // 去掉.md扩展名
+              return title.replace(/\.md$/, '');
+            },
+            
+            goBack() {
+              if (this.currentView === 'reader') {
+                this.currentView = 'articles';
+              } else if (this.currentView === 'articles') {
+                this.currentView = 'category';
+              } else if (this.currentView === 'category') {
+                this.currentView = 'home';
+              }
+            },
+            // 浏览分类下的所有文章
+            browseCategoryArticles(folderName) {
+              const url = `https://houbb.github.io/blog-personal-improve/posts/${folderName}/`;
+              this.safeOpenWindow(url);
+            },
+            
+            // 安全打开窗口的函数
+            safeOpenWindow(url) {
+              try {
+                // 首先尝试直接打开链接
+                if (window && typeof window.open === 'function') {
+                  const newWindow = window.open(url, '_blank');
+                  if (!newWindow) {
+                    // 如果弹窗被阻止，显示提示信息
+                    this.showOpenWindowAlert(url);
+                  }
+                } else {
+                  // 如果window.open不可用，显示提示信息
+                  this.showOpenWindowAlert(url);
+                }
+              } catch (error) {
+                console.error('无法打开文章页面:', error);
+                // 如果window.open失败，提供一个备选方案
+                try {
+                  const newWindow = window.open();
+                  if (newWindow) {
+                    newWindow.opener = null;
+                    newWindow.location = url;
+                  } else {
+                    // 如果弹窗被阻止，显示提示信息
+                    this.showOpenWindowAlert(url);
+                  }
+                } catch (innerError) {
+                  console.error('备用方案也失败:', innerError);
+                  this.showOpenWindowAlert(url);
+                }
+              }
+            },
+            
+            // 显示打开窗口提示的函数
+            showOpenWindowAlert(url) {
+              // 创建一个提示元素
+              const alertDiv = document.createElement('div');
+              alertDiv.innerHTML = `
+                <div style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); 
+                            background: #8B4513; color: #F5DEB3; padding: 15px; border-radius: 5px; 
+                            box-shadow: 0 4px 8px rgba(0,0,0,0.3); z-index: 10000; max-width: 90%; 
+                            text-align: center; border: 1px solid #D2691E;">
+                  <p>请允许弹窗以查看文章内容，或手动访问:</p>
+                  <p style="font-weight: bold; word-break: break-all;">${url}</p>
+                  <button onclick="this.parentElement.parentElement.remove()" 
+                          style="background: #D2691E; color: #F5DEB3; border: none; padding: 5px 10px; 
+                                 border-radius: 3px; cursor: pointer; margin-top: 10px;">关闭</button>
+                </div>
+              `;
+              document.body.appendChild(alertDiv);
+              
+              // 5秒后自动移除提示
+              setTimeout(() => {
+                if (alertDiv.parentElement) {
+                  alertDiv.parentElement.remove();
+                }
+              }, 5000);
+            }
+          },
+          mounted() {
+            // 初始化玩家数据（如果本地存储中有）
+            const savedPlayer = localStorage.getItem('player');
+            if (savedPlayer) {
+              this.player = JSON.parse(savedPlayer);
+            }
+          },
+          watch: {
+            player: {
+              handler(newPlayer) {
+                localStorage.setItem('player', JSON.stringify(newPlayer));
+              },
+              deep: true
+            }
+          },
+          template: `
+            <div>
+              <div v-if="currentView === 'home'">
+                <div class="container">
+                  <h1>🪷 修仙阅读游戏</h1>
+                  
+                  <!-- 玩家状态 -->
+                  <div class="card">
+                    <h2>道士职业</h2>
+                    <p>当前境界: {{ realmInfo.name }}</p>
+                    <p>{{ realmInfo.description }}</p>
+                    
+                    <div>
+                      <p>修为值: {{ player.cultivation }} / {{ player.maxCultivation }}</p>
+                      <div class="progress-bar">
+                        <div class="progress-fill" :style="{ width: (player.cultivation / player.maxCultivation * 100) + '%' }"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <p>灵力值: {{ player.spirit }} / {{ player.maxSpirit }}</p>
+                      <div class="progress-bar">
+                        <div class="progress-fill" :style="{ width: (player.spirit / player.maxSpirit * 100) + '%' }"></div>
+                      </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap;">
+                      <button class="btn" @click="cultivate">🧘 打坐修炼</button>
+                      <button class="btn" @click="absorbSpirit">💨 吸收灵力</button>
+                    </div>
+                  </div>
+                  
+                  <!-- 总进度 -->
+                  <div class="card">
+                    <h2>修炼总进度</h2>
+                    <p>总体完成度: {{ totalProgress }}%</p>
+                    <div class="progress-bar">
+                      <div class="progress-fill" :style="{ width: totalProgress + '%' }"></div>
+                    </div>
+                  </div>
+                  
+                  <!-- 分类总览 -->
+                  <div class="card">
+                    <h2>📚 功法总纲</h2>
+                    <div class="grid">
+                      <div 
+                        v-for="category in categories" 
+                        :key="category.id"
+                        class="card"
+                        @click="() => navigateTo('articles', category)"
+                        style="cursor: pointer;"
+                      >
+                        <h3>《{{ category.displayName }}》</h3>
+                        <p>{{ category.name }}</p>
+                        <p>{{ category.volume }}</p>
+                        <p>文章数量: {{ category.count }}</p>
+                        <div>
+                          <p>进度: {{ getCategoryProgress(category.id) }}%</p>
+                          <div class="progress-bar">
+                            <div class="progress-fill" :style="{ width: getCategoryProgress(category.id) + '%' }"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div v-if="currentView === 'articles'">
+                <div class="container">
+                  <button class="btn" @click="goBack" style="margin-bottom: 20px;">⬅ 返回</button>
+                  
+                  <div class="card">
+                    <h1>📖 《{{ selectedCategory.displayName }}》</h1>
+                    <p>{{ selectedCategory.description }}</p>
+                    <p>分类: {{ selectedCategory.volume }} - {{ selectedCategory.name }}</p>
+                    <p>文章总数: {{ selectedCategory.count }}</p>
+                    <p>当前进度: {{ getCategoryProgress(selectedCategory.id) }}%</p>
+                    <div class="progress-bar">
+                      <div class="progress-fill" :style="{ width: getCategoryProgress(selectedCategory.id) + '%' }"></div>
+                    </div>
+                    
+                    <div style="margin-top: 20px; text-align: center;">
+                      <button class="btn" @click="() => browseCategoryArticles(selectedCategory.folder)">
+                        🌐 浏览该分类下所有文章
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <h2>📜 文章列表</h2>
+                    <div v-if="articles.length === 0" class="loading">加载中...</div>
+                    <div v-else class="grid">
+                      <div 
+                        v-for="article in articles" 
+                        :key="article.id"
+                        class="card"
+                        :style="{ 
+                          cursor: 'pointer',
+                          border: article.read ? '2px solid #51cf66' : '1px solid var(--border-color)'
+                        }"
+                        @click="() => readArticle(article)"
+                      >
+                        <div class="article-title">{{ article.title }}</div>
+                        <p class="article-status" :style="{ color: article.read ? '#51cf66' : '#F5DEB3' }">
+                          {{ article.read ? '✅ 已读' : '📖 未读' }}
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div style="margin-top: 20px; text-align: center;">
+                      <p>注：以上为该分类下的文章列表，点击文章可直接阅读</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `
+        });
+
+        // 挂载应用
+        app.mount('#app');
+    </script>
+</body>
+</html>
