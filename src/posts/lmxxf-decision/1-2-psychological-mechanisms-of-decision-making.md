@@ -1,7 +1,7 @@
 ---
 title: 决策过程的心理机制
 date: 2025-08-30
-categories: [决策能力基础]
+categories: [Decision]
 tags: [决策, 心理机制, 认知科学]
 published: true
 ---
