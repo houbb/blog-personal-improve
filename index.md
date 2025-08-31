@@ -968,7 +968,7 @@
 - [对于信息处理的思维模型之假设演绎法（Hypothesis-Driven Thinking）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-37-think-model-Hypothesis-Driven-Thinking.md)
 - [对于信息处理的思维模型之因果链分析（Causal Chain Analysis）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-38-think-model-cause-chain-analysis.md)
 - [对于信息处理的思维模型之贝叶斯思维（Bayesian Thinking）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-39-think-model-Bayesian-Thinking.md)
-- [对于信息处理的思维模型之金字塔原理（Pyramid Principle）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-40-think-model-Pyramid Principle.md)
+- [对于信息处理的思维模型之金字塔原理（Pyramid Principle）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-40-think-model-Pyramid-Principle.md)
 - [对于信息处理的思维模型之框架化思维（Framework Thinking）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-41-think-model-framework-thinking.md)
 - [对于信息处理的思维模型之数据可视化（Data Visualization）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-42-think-model-data-visual.md)
 - [对于信息处理的思维模型之实践化输出（Actionable Output）](posts/lmxxf-think-model/2025-08-15-life-open-your-eyes-43-think-model-actional-output.md)
