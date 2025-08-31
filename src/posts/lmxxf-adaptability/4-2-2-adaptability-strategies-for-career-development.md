@@ -1,7 +1,7 @@
 ---
 title: 职业发展的适应力策略：构建可持续的职业成长路径
 date: 2025-08-30
-categories: [Adaptability, Career Development, Professional Growth]
+categories: [Adaptability], Career Development, Professional Growth]
 tags: [adaptability, career development, professional growth, lifelong learning, personal branding]
 published: true
 ---

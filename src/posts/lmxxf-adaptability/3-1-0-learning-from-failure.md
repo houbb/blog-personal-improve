@@ -1,7 +1,7 @@
 ---
 title: 学习能力：从失败中学习的艺术与科学
 date: 2025-08-30
-categories: [Adaptability, Learning]
+categories: [Adaptability], Learning]
 tags: [adaptability, learning, failure, growth, resilience]
 published: true
 ---

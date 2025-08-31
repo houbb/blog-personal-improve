@@ -1,7 +1,7 @@
 ---
 title: 面对冲突与变化时的情感管理：在人际关系动荡中保持内心平静
 date: 2025-08-30
-categories: [Adaptability, Emotional Management, Conflict Resolution]
+categories: [Adaptability], Emotional Management, Conflict Resolution]
 tags: [adaptability, emotional management, conflict resolution, change management, interpersonal skills]
 published: true
 ---

@@ -2,8 +2,8 @@
 
 title: 详细展开输入层的 元认知监控（Metacognitive Monitoring）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

@@ -2,8 +2,8 @@
 
 title: 经典方法论之 帕累托法则（Pareto Principle / 80/20 原则）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

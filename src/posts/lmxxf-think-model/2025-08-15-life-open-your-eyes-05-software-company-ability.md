@@ -2,8 +2,8 @@
 
 title: 软件技术工作不同的职位的核心能力是什么？
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

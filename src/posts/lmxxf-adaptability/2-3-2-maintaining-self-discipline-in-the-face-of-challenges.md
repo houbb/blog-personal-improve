@@ -1,7 +1,7 @@
 ---
 title: 在挑战中保持自律：应对压力与诱惑的实用策略
 date: 2025-08-30
-categories: [Adaptability, Self Discipline, Stress Management]
+categories: [Adaptability], Self Discipline, Stress Management]
 tags: [adaptability, self-discipline, stress management, temptation, resilience]
 published: true
 ---

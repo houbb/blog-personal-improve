@@ -2,8 +2,8 @@
 
 title: 如何提升输入层的 多渠道、多视角获取（Diverse Sourcing）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

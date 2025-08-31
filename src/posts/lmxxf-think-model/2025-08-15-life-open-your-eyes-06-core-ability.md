@@ -2,8 +2,8 @@
 
 title: 能力的核心是什么？能力的第一性原理是什么？
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 如何通过适应力推动个人的长期成长：从应对变化到主动进化
 date: 2025-08-30
-categories: [Adaptability, Personal Development, Growth Strategy]
+categories: [Adaptability], Personal Development, Growth Strategy]
 tags: [adaptability, personal growth, long-term development, self-evolution, lifelong learning]
 published: true
 ---

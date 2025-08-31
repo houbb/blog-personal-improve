@@ -1,7 +1,7 @@
 ---
 title: 如何成为适应力强的领导者：在不确定性中引领团队的实战指南
 date: 2025-08-30
-categories: [Adaptability, Leadership, Resilience]
+categories: [Adaptability], Leadership, Resilience]
 tags: [adaptability, resilient leadership, uncertainty, team guidance, crisis management]
 published: true
 ---

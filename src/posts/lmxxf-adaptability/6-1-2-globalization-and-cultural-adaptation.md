@@ -1,7 +1,7 @@
 ---
 title: 全球化与文化适应：在多元世界中保持竞争力
 date: 2025-08-30
-categories: [Adaptability, Globalization, Cultural Intelligence]
+categories: [Adaptability], Globalization, Cultural Intelligence]
 tags: [adaptability, globalization, cultural adaptation, cross-cultural communication, international collaboration]
 published: true
 ---

@@ -2,8 +2,8 @@
 
 title: 经典方法论之 DMAIC 方法（六西格玛）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

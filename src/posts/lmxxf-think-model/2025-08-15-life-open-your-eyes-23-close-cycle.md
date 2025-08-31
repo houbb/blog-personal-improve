@@ -2,8 +2,8 @@
 
 title: 对于信息的输入、处理、输出如何形成闭环？
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

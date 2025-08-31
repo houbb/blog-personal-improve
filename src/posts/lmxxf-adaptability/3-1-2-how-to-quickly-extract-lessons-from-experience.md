@@ -1,7 +1,7 @@
 ---
 title: 如何从经验中快速提取教训：高效学习与反思的系统方法
 date: 2025-08-30
-categories: [Adaptability, Learning, Reflection]
+categories: [Adaptability], Learning, Reflection]
 tags: [adaptability, learning, experience, reflection, lessons]
 published: true
 ---

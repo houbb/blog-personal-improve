@@ -1,7 +1,7 @@
 ---
 title: 领导力与适应力的关系：构建变革时代的核心领导能力
 date: 2025-08-30
-categories: [Adaptability, Leadership, Organizational Development]
+categories: [Adaptability], Leadership, Organizational Development]
 tags: [adaptability, leadership, change management, organizational culture, team performance]
 published: true
 ---

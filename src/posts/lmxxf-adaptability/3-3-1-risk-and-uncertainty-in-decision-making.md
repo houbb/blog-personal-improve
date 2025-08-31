@@ -1,7 +1,7 @@
 ---
 title: 决策中的风险与不确定性：在模糊环境中做出明智选择的科学
 date: 2025-08-30
-categories: [Adaptability, Decision Making, Risk Management]
+categories: [Adaptability], Decision Making, Risk Management]
 tags: [adaptability, decision making, risk, uncertainty, cognitive bias]
 published: true
 ---

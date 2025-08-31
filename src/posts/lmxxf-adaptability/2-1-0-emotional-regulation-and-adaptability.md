@@ -1,7 +1,7 @@
 ---
 title: 情绪调节与适应力：在变化中保持内心平衡的关键能力
 date: 2025-08-30
-categories: [Adaptability, Emotional Intelligence]
+categories: [Adaptability], Emotional Intelligence]
 tags: [adaptability, emotional regulation, emotional intelligence, stress management]
 published: true
 ---

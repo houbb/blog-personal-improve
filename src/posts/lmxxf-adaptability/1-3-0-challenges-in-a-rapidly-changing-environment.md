@@ -1,7 +1,7 @@
 ---
 title: 快速变化环境中的挑战：理解现代生活的复杂性与不确定性
 date: 2025-08-30
-categories: [Adaptability, Modern Challenges]
+categories: [Adaptability], Modern Challenges]
 tags: [adaptability, change, uncertainty, complexity, modern life]
 published: true
 ---

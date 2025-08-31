@@ -1,7 +1,7 @@
 ---
 title: 培养快速决策能力：在压力下做出明智选择的艺术
 date: 2025-08-30
-categories: [Adaptability, Decision Making]
+categories: [Adaptability], Decision Making]
 tags: [adaptability, decision making, pressure, uncertainty, leadership]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 适应力与个人成长：通过适应力推动长期发展
 date: 2025-08-30
-categories: [Adaptability, Personal Development]
+categories: [Adaptability], Personal Development]
 tags: [adaptability, personal growth, lifelong learning, self-improvement, development]
 published: true
 ---

@@ -2,8 +2,8 @@
 
 title: 如何提升对于世界信息的感知力？
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

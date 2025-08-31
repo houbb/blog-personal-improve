@@ -1,7 +1,7 @@
 ---
 title: 适应力的跨领域应用：从个人到社会的普遍价值
 date: 2025-08-30
-categories: [Adaptability, Cross Domain Application, Universal Value]
+categories: [Adaptability], Cross Domain Application, Universal Value]
 tags: [adaptability, cross domain, universal value, personal application, social application]
 published: true
 ---

@@ -2,8 +2,8 @@
 
 title: 对于信息处理的思维模型之假设演绎法（Hypothesis-Driven Thinking）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

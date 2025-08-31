@@ -2,8 +2,8 @@
 
 title: 对于信息处理的思维模型之金字塔原理（Pyramid Principle）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

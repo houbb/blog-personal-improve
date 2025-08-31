@@ -1,7 +1,7 @@
 ---
 title: 适应力与心理韧性：从挫折中恢复并变得更加强大
 date: 2025-08-30
-categories: [Adaptability, Resilience, Mental Health]
+categories: [Adaptability], Resilience, Mental Health]
 tags: [adaptability, resilience, mental health, stress management, personal growth]
 published: true
 ---

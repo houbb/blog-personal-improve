@@ -1,7 +1,7 @@
 ---
 title: 适应不确定性带来的变化：在动荡中保持稳定与成长的策略
 date: 2025-08-30
-categories: [Adaptability, Change Management, Uncertainty]
+categories: [Adaptability], Change Management, Uncertainty]
 tags: [adaptability, uncertainty, change, resilience, growth]
 published: true
 ---

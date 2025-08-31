@@ -1,7 +1,7 @@
 ---
 title: 正确应对失败与挫折：从崩溃到成长的心理转变
 date: 2025-08-30
-categories: [Adaptability, Resilience, Psychology]
+categories: [Adaptability], Resilience, Psychology]
 tags: [adaptability, failure, setbacks, resilience, growth mindset]
 published: true
 ---

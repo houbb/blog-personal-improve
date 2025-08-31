@@ -1,7 +1,7 @@
 ---
 title: 灵活工作模式的优势与挑战：构建高效远程工作环境的完整指南
 date: 2025-08-30
-categories: [Adaptability, Remote Work, Productivity]
+categories: [Adaptability], Remote Work, Productivity]
 tags: [adaptability, remote work, flexible work, productivity, collaboration]
 published: true
 ---

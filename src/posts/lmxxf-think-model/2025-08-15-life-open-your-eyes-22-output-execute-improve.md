@@ -2,8 +2,8 @@
 
 title: 对于信息处理输出如何提升执行力？
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

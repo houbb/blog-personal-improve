@@ -1,7 +1,7 @@
 ---
 title: 从个人到社会：适应力的普遍价值与应用
 date: 2025-08-30
-categories: [Adaptability, Social Application, Universal Value]
+categories: [Adaptability], Social Application, Universal Value]
 tags: [adaptability, social application, universal value, organizational development, societal progress]
 published: true
 ---

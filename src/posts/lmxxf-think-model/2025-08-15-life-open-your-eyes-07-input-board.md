@@ -2,8 +2,8 @@
 
 title: 如何提升对于世界信息的感知的广度？避免信息茧房
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

@@ -2,8 +2,8 @@
 
 title: 如何提升输入层的 筛选与甄别（Information Filtering）
 date: 2025-08-15
-categories: [Travel]
-tags: [life, career-planning, sh]
+categories: [ThinkModel]
+tags: [life, career-planning, think-model, sh]
 published: true
 ---
 

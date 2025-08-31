@@ -1,7 +1,7 @@
 ---
 title: 为什么适应力在现代生活中至关重要：应对VUCA时代的必备能力
 date: 2025-08-30
-categories: [Adaptability, Modern Life]
+categories: [Adaptability], Modern Life]
 tags: [adaptability, VUCA, career, personal development]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 在不确定环境中寻找方向：混沌中的导航艺术
 date: 2025-08-30
-categories: [Adaptability, Decision Making, Strategy]
+categories: [Adaptability], Decision Making, Strategy]
 tags: [adaptability, uncertainty, direction, navigation, strategy]
 published: true
 ---

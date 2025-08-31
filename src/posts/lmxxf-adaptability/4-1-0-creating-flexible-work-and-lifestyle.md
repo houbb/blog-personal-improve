@@ -1,7 +1,7 @@
 ---
 title: 创造灵活的工作和生活方式：在变化中保持平衡与效率
 date: 2025-08-30
-categories: [Adaptability, Work Life Balance]
+categories: [Adaptability], Work Life Balance]
 tags: [adaptability, work flexibility, lifestyle, balance, productivity]
 published: true
 ---

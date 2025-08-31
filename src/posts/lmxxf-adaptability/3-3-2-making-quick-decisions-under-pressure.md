@@ -1,7 +1,7 @@
 ---
 title: 压力下的快速决策：在时间紧迫中保持判断力的实战指南
 date: 2025-08-30
-categories: [Adaptability, Decision Making, Stress Management]
+categories: [Adaptability], Decision Making, Stress Management]
 tags: [adaptability, decision making, pressure, stress, cognitive performance]
 published: true
 ---

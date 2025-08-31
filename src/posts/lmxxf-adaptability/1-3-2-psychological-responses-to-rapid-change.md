@@ -1,7 +1,7 @@
 ---
 title: 面对快速变化的心理反应：理解焦虑、抗拒与适应的内在机制
 date: 2025-08-30
-categories: [Adaptability, Psychology, Mental Health]
+categories: [Adaptability], Psychology, Mental Health]
 tags: [adaptability, psychology, anxiety, resistance, mental health]
 published: true
 ---

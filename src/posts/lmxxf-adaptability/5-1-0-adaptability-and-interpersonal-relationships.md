@@ -1,7 +1,7 @@
 ---
 title: 适应力与人际关系：在复杂人际环境中保持适应与和谐
 date: 2025-08-30
-categories: [Adaptability, Interpersonal Skills]
+categories: [Adaptability], Interpersonal Skills]
 tags: [adaptability, interpersonal relationships, social skills, emotional intelligence, conflict resolution]
 published: true
 ---

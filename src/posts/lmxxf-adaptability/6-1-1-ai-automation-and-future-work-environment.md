@@ -1,7 +1,7 @@
 ---
 title: 人工智能与自动化：未来工作环境的挑战与机遇
 date: 2025-08-30
-categories: [Adaptability, Artificial Intelligence, Future of Work]
+categories: [Adaptability], Artificial Intelligence, Future of Work]
 tags: [adaptability, AI, automation, future work, technological change]
 published: true
 ---
