@@ -24,28 +24,6 @@ npm run docs:clean-dev
 
 # 系列专题
 
-## 读书笔记（知识输入）
-
-## 知识花园（知识库、沉淀、有效输出）
-
-github: [https://github.com/houbb/blog-personal-improve](https://github.com/houbb/blog-personal-improve)
-
-github-pags: [https://houbb.github.io/blog-personal-improve/](https://houbb.github.io/blog-personal-improve/posts/digit-garden/)
-
-gitbook: [https://houbb.gitbook.io/digit-garden/](https://houbb.gitbook.io/digit-garden/)
-
-## 学习方法论（学习技巧-深度加工）
-
-github: [https://github.com/houbb/blog-personal-improve](https://github.com/houbb/blog-personal-improve)
-
-github-pags: [https://houbb.github.io/blog-personal-improve/](https://houbb.github.io/blog-personal-improve/posts/learnmethods/)
-
-## 思维模型（底层模型-深度加工）
-
-github: [https://github.com/houbb/blog-personal-improve](https://github.com/houbb/blog-personal-improve)
-
-github-pags: [https://houbb.github.io/blog-personal-improve/](https://houbb.github.io/blog-personal-improve/posts/thinkmodel/)
-
 ## 刻意练习(力扣算法)
 
 [leetcode 算法实现源码](https://github.com/houbb/leetcode)
@@ -58,7 +36,7 @@ github-pags: [https://houbb.github.io/blog-personal-improve/](https://houbb.gith
 
 [个人技术笔记](https://github/houbb/houbb.github.io)
 
-[个人思考(不止技术) blog-personal-improve](https://github/houbb/blog-personal-improve)
+[个人思考笔记](https://houbb.github.io/blog-thinking)
 
 ## 整体关系
 
