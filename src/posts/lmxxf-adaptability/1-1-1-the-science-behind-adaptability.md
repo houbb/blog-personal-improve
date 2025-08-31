@@ -1,7 +1,7 @@
 ---
 title: 适应力的科学原理：大脑如何帮助我们适应变化
 date: 2025-08-30
-]categories: [Adaptability]
+categories: [Adaptability]
 tags: [adaptability, neuroscience, brain, psychology]
 published: true
 ---
