@@ -1,7 +1,7 @@
 ---
 title: 常见的决策偏差
 date: 2025-08-30
-categories: [认知偏差与陷阱]
+categories: [Decision]
 tags: [认知偏差, 决策陷阱, 心理学]
 published: true
 ---

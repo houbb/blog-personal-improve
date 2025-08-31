@@ -1,7 +1,7 @@
 ---
 title: 什么是决策能力？
 date: 2025-08-30
-categories: [决策能力基础]
+categories: [Decision]
 tags: [决策, 能力, 基础]
 published: true
 ---

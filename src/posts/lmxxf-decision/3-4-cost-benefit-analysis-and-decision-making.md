@@ -1,7 +1,7 @@
 ---
 title: 成本效益分析与决策
 date: 2025-08-30
-categories: [决策模型与工具]
+categories: [Decision]
 tags: [成本效益, 决策优化, 评估框架]
 published: true
 ---

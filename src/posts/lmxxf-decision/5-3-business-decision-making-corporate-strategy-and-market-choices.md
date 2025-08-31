@@ -1,7 +1,7 @@
 ---
 title: 商业决策：企业战略与市场选择
 date: 2025-08-30
-categories: [决策实践应用]
+categories: [Decision]
 tags: [商业决策, 企业战略, 市场选择]
 published: true
 ---

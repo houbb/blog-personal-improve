@@ -1,7 +1,7 @@
 ---
 title: 期望值理论与决策分析
 date: 2025-08-30
-categories: [决策模型与工具]
+categories: [Decision]
 tags: [期望值, 决策分析, 概率]
 published: true
 ---

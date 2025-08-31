@@ -1,7 +1,7 @@
 ---
 title: 决策能力与自我发展
 date: 2025-08-30
-categories: [决策能力深度发展]
+categories: [Decision]
 tags: [自我发展, 能力提升, 个人成长]
 published: true
 ---

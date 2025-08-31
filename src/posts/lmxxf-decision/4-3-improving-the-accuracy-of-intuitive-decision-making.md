@@ -1,7 +1,7 @@
 ---
 title: 提高直觉决策的准确性
 date: 2025-08-30
-categories: [直觉与经验]
+categories: [Decision]
 tags: [直觉准确性, 决策优化, 能力提升]
 published: true
 ---

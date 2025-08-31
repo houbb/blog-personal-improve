@@ -1,7 +1,7 @@
 ---
 title: 直觉决策：如何通过直觉做出明智选择
 date: 2025-08-30
-categories: [直觉与经验]
+categories: [Decision]
 tags: [直觉决策, 经验判断, 决策智慧]
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: 决策力与领导力
 date: 2025-08-30
-categories: [决策能力深度发展]
+categories: [Decision]
 tags: [决策力, 领导力, 管理技能]
 published: true
 ---

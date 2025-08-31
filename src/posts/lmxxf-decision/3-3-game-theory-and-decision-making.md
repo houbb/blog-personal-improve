@@ -1,7 +1,7 @@
 ---
 title: 博弈论与决策
 date: 2025-08-30
-categories: [决策模型与工具]
+categories: [Decision]
 tags: [博弈论, 策略选择, 决策优化]
 published: true
 ---

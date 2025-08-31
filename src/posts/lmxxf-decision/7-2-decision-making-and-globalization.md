@@ -1,7 +1,7 @@
 ---
 title: 决策与全球化
 date: 2025-08-30
-categories: [未来决策挑战与机遇]
+categories: [Decision]
 tags: [全球化, 跨文化决策, 国际化]
 published: true
 ---

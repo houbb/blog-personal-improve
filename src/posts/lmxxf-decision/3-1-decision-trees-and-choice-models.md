@@ -1,7 +1,7 @@
 ---
 title: 决策树与选择模型
 date: 2025-08-30
-categories: [决策模型与工具]
+categories: [Decision]
 tags: [决策树, 选择模型, 决策工具]
 published: true
 ---

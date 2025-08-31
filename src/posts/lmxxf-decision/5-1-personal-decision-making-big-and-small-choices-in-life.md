@@ -1,7 +1,7 @@
 ---
 title: 个人决策：生活中的大大小小选择
 date: 2025-08-30
-categories: [决策实践应用]
+categories: [Decision]
 tags: [个人决策, 生活选择, 决策应用]
 published: true
 ---

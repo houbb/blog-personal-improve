@@ -1,7 +1,7 @@
 ---
 title: 培养批判性思维与决策能力
 date: 2025-08-30
-categories: [决策能力深度发展]
+categories: [Decision]
 tags: [批判性思维, 决策能力, 思维训练]
 published: true
 ---

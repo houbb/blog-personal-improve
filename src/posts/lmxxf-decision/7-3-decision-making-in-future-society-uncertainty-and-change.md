@@ -1,7 +1,7 @@
 ---
 title: 未来社会中的决策：不确定性与变化
 date: 2025-08-30
-categories: [未来决策挑战与机遇]
+categories: [Decision]
 tags: [未来社会, 不确定性, 变化管理]
 published: true
 ---

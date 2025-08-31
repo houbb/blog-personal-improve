@@ -1,7 +1,7 @@
 ---
 title: 决策类型与决策场景
 date: 2025-08-30
-categories: [决策能力基础]
+categories: [Decision]
 tags: [决策类型, 决策场景, 分类]
 published: true
 ---

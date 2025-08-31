@@ -1,7 +1,7 @@
 ---
 title: 决策中的常见错误与陷阱
 date: 2025-08-30
-categories: [认知偏差与陷阱]
+categories: [Decision]
 tags: [决策错误, 决策陷阱, 决策质量]
 published: true
 ---

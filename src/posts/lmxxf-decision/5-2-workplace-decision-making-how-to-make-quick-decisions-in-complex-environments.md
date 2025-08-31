@@ -1,7 +1,7 @@
 ---
 title: 职场决策：如何在复杂环境中快速决策
 date: 2025-08-30
-categories: [决策实践应用]
+categories: [Decision]
 tags: [职场决策, 快速决策, 复杂环境]
 published: true
 ---

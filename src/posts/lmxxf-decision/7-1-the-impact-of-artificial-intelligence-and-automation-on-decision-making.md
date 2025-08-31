@@ -1,7 +1,7 @@
 ---
 title: 人工智能与自动化对决策的影响
 date: 2025-08-30
-categories: [未来决策挑战与机遇]
+categories: [Decision]
 tags: [人工智能, 自动化, 决策影响]
 published: true
 ---

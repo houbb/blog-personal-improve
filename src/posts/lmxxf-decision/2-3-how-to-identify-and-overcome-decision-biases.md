@@ -1,7 +1,7 @@
 ---
 title: 如何识别并克服决策偏差
 date: 2025-08-30
-categories: [认知偏差与陷阱]
+categories: [Decision]
 tags: [克服偏差, 决策改进, 自我提升]
 published: true
 ---

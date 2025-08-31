@@ -1,7 +1,7 @@
 ---
 title: 经验与反思在决策中的作用
 date: 2025-08-30
-categories: [直觉与经验]
+categories: [Decision]
 tags: [经验积累, 反思学习, 决策改进]
 published: true
 ---
